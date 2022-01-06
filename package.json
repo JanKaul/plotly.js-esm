@@ -1,5 +1,5 @@
 {
-  "name": "plotly.js-esm",
+  "name": "@weblab-notebook/plotly.js-esm",
   "version": "1.0.0",
   "description": "Plotly.js bundled as es module.",
   "main": "dist/index-strict.js",
