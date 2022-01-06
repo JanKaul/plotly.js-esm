@@ -1,0 +1,27 @@
+{
+  "name": "plotly.js-esm",
+  "version": "1.0.0",
+  "description": "Plotly.js bundled as es module.",
+  "main": "dist/plotly.js",
+  "type": "module",
+  "exports": {
+    "import": "./dist/plotly.js",
+    "default": "./dist/plotly.js"
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "test": "web-test-runner \"test/**/*.test.js\" \"src/**/*.test.js\" --node-resolve"
+  },
+  "files": [
+    "./dist/plotly.js"
+  ],
+  "author": "Jan Kaul",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.2",
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/test-runner": "^0.13.16"
+  }
+}
