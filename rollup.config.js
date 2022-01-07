@@ -5,7 +5,7 @@ import commonjs from '@rollup/plugin-commonjs';
 export default {
     input: 'plotly.js/lib/index-strict.js',
     output: {
-        dir: 'dist',
+        file: "dist/index.js",
         format: 'es'
     },
     plugins: [commonjs(), nodePolyfills(), nodeResolve({ browser: true, preferBuiltins: false })]

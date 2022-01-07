@@ -2,18 +2,18 @@
   "name": "plotly.js-esm",
   "version": "1.0.0",
   "description": "Plotly.js bundled as es module.",
-  "main": "dist/index-strict.js",
+  "main": "dist/index.js",
   "type": "module",
   "exports": {
-    "import": "./dist/index-strict.js",
-    "default": "./dist/index-strict.js"
+    "import": "./dist/index.js",
+    "default": "./dist/index.js"
   },
   "scripts": {
     "build": "rollup --config",
     "test": "web-test-runner \"test/**/*.test.js\" \"src/**/*.test.js\" --node-resolve"
   },
   "files": [
-    "./dist/index-strict.js"
+    "./dist/index.js"
   ],
   "author": "Jan Kaul",
   "license": "Apache-2.0",
