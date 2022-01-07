@@ -1,6 +1,6 @@
 {
   "name": "plotly.js-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plotly.js bundled as es module.",
   "main": "dist/index.js",
   "type": "module",
